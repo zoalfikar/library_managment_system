@@ -1,4 +1,13 @@
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
     <h1>Library Management System API
     </h1>
     <p> Gradle version 8.5 </p>
@@ -21,24 +30,24 @@
         <p>to Create a migration Go to utilities\src\main\java\migrations\tables add file {migration_name}.migration .
         </p>
         <p><b>gradle :utilities:run --args=migrate:triggers
-        </b></p>
+            </b></p>
         <p><b>gradle :utilities:run --args=seed:library
-        </b></p>
+            </b></p>
     </div>
     <div>
         <h2>start the application</h2>
         <p><b>Gradle bootrun
-        </b></p>
+            </b></p>
     </div>
     <div>
         <h2>Testing th Api</h2>
         <p><b>Gradle test
-        </b></p>
+            </b></p>
     </div>
     <div>
         <h2>Useage</h2>
         <p><b>curl http://localhost:7788
-        </b></p>
+            </b></p>
         <p>{"message":"Welcome in library managment system"}
         </p>
     </div>
@@ -76,3 +85,6 @@
         <p> Get <i> /api/borrowing/records/book/{bookId}     </i> get book borrowing records
         </p>
     </div>
+</body>
+
+</html>
