@@ -1,0 +1,2 @@
+rootProject.name = 'library_managment_system'
+include('utilities')

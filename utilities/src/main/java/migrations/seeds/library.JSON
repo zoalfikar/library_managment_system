@@ -1,0 +1,65 @@
+{
+    "patrons": [{
+            "first_name": "Ali",
+            "last_name": "Alsaad",
+            "age": 32,
+            "email": "ali@gmail.com",
+            "phone_number": "091111111"
+        },
+        {
+            "first_name": "Ahmd",
+            "last_name": "Issa",
+            "age": 21,
+            "email": "ahmad@gmail.com",
+            "phone_number": "092222222"
+        }
+    ],
+    "books": [{
+            "title": "The Murder of Roger Ackroyd ",
+            "author": "Agatha Christie",
+            "isbn": "1111",
+            "publication_year": "1926"
+        },
+        {
+            "title": "Peril at End House",
+            "author": "Agatha Christie",
+            "isbn": "2222",
+            "publication_year": "1932"
+        }, {
+            "title": "Murder on the Orient Express ",
+            "author": "Agatha Christie",
+            "isbn": "3333",
+            "publication_year": "3333"
+        }, {
+            "title": "The ABC Murders",
+            "author": "Agatha Christie",
+            "isbn": "4444",
+            "publication_year": "1935"
+        }, {
+            "title": "And Then There Were None",
+            "author": "Agatha Christie",
+            "isbn": "5555",
+            "publication_year": "1393"
+        }, {
+            "title": "Five Little Pigs",
+            "author": "Agatha Christie",
+            "isbn": "6666",
+            "publication_year": "1943"
+        }, {
+            "title": "Crooked House",
+            "author": "Agatha Christie",
+            "isbn": "7777",
+            "publication_year": "1949"
+        }, {
+            "title": "Les Misérables",
+            "author": "Victor Hugo",
+            "isbn": "8888",
+            "publication_year": "1862"
+        }, {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn": "9999",
+            "publication_year": "1925"
+        }
+    ]
+}

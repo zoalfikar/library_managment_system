@@ -1,0 +1,10 @@
+CREATE TABLE books (
+    id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL ,
+    author VARCHAR(255) NOT NULL ,
+    publication_year VARCHAR(4) NOT NULL,
+    isbn VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW() ,
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE now(),
+    CONSTRAINT digits CHECK(publication_year regexp '^[0-9]+$')
+    )

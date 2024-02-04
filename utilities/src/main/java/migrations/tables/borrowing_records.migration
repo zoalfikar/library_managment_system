@@ -1,0 +1,15 @@
+CREATE TABLE borrowing_records (
+    id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    patron_id int(11) NOT NULL ,
+    book_id int(11) NOT NULL ,
+    borrwing_date TIMESTAMP NOT NULL DEFAULT NOW(),
+    returned_date TIMESTAMP NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW() ,
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE now(),
+    CONSTRAINT fk_book FOREIGN KEY (book_id)  
+    REFERENCES books(id)  
+    ON DELETE Cascade,
+    CONSTRAINT fk_patron FOREIGN KEY (patron_id)  
+    REFERENCES patrons(id)  
+    ON DELETE Cascade
+    )
